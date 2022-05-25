@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Pablo Scyzoryk">
+    <meta name="description" content="Responsive Simple Form Validation example using RegEx by Pablo Scyzoryk 2022">
+    <link rel="stylesheet" href="./styles.css">
+    <script defer src="./script.js"></script>
+    <title>Form Validation - 1</title>
+</head>
+<body>
+    <div class="form">
+        <div class="h1-wrapper">
+            <h1>Form Validation</h1>
+        </div>
+        <form>
+            <div class="input-wrapper">
+                <input type="text" name="email" id="email" autocomplete="off" placeholder="Email" required>   
+                <div class="input-icon">
+                    <input type="password" name="password" id="password"  placeholder="Password" required>  
+                    
+                    <i class="input-eye">
+                        <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                            <path fill="currentColor" d="M12,9A3,3 0 0,1 15,12A3,3 0 0,1 12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9M12,4.5C17,4.5 21.27,7.61 23,12C21.27,16.39 17,19.5 12,19.5C7,19.5 2.73,16.39 1,12C2.73,7.61 7,4.5 12,4.5M3.18,12C4.83,15.36 8.24,17.5 12,17.5C15.76,17.5 19.17,15.36 20.82,12C19.17,8.64 15.76,6.5 12,6.5C8.24,6.5 4.83,8.64 3.18,12Z" />
+                        </svg>
+                    </i>
+                </div>
+                <input type="submit" name="submit" id="submit" value="Log in" disabled> 
+            </div>
+        </form>
+    </div>
+
+    <p><a href="https://github.com/pabloscyzoryk" target="_blank">by Pablo Scyzoryk 2022 &copy;</a></p>
+</body>
+</html>
